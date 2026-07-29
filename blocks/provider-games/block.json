@@ -1,0 +1,58 @@
+{
+  "apiVersion": 3,
+  "name": "gdp-lite/provider-games",
+  "version": "1.9.0",
+  "title": "Provider Games",
+  "category": "gdp-lite",
+  "icon": "admin-site-alt3",
+  "description": "Display games from a selected provider.",
+  "textdomain": "gdp-lite",
+  "attributes": {
+    "type": {
+      "type": "string",
+      "default": ""
+    },
+    "provider": {
+      "type": "string",
+      "default": ""
+    },
+    "collection": {
+      "type": "string",
+      "default": ""
+    },
+    "category": {
+      "type": "string",
+      "default": ""
+    },
+    "volatility": {
+      "type": "string",
+      "default": ""
+    },
+    "limit": {
+      "type": "number",
+      "default": 8
+    },
+    "columns": {
+      "type": "number",
+      "default": 4
+    },
+    "orderby": {
+      "type": "string",
+      "default": "date"
+    },
+    "order": {
+      "type": "string",
+      "default": "DESC"
+    }
+  },
+  "editorScript": "gdp-lite-blocks-editor",
+  "editorStyle": "gdp-lite-blocks-editor",
+  "style": "gdp-lite-public",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  }
+}
